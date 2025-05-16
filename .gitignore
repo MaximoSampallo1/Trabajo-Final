@@ -1,0 +1,14 @@
+
+*.css
+*.css.map
+
+node_modules/
+
+.vscode/
+.idea/
+
+images/*.jpg
+images/*.png
+
+.DS_Store
+Thumbs.db
