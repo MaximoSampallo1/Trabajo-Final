@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.header {
+  background: #27293d;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  color: #ff6f61;
+}
+.header .nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+.header .nav ul li a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.header .nav ul li a:hover {
+  color: #ff6f61;
+}
+
+.main {
+  padding: 2rem;
+}
+.main .section h2 {
+  text-align: center;
+  border-bottom: 2px solid #ff6f61;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+.main .section .carousel .carousel-item img {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.main .section .carousel .carousel-item .carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.main .section .carousel .carousel-control-prev-icon,
+.main .section .carousel .carousel-control-next-icon {
+  filter: invert(1);
+}
+.main .section .carousel .carousel-control-prev,
+.main .section .carousel .carousel-control-next {
+  transition: transform 0.3s ease-in-out;
+}
+.main .section .carousel .carousel-control-prev:hover,
+.main .section .carousel .carousel-control-next:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background: #27293d;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header .nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .main {
+    padding: 1rem;
+  }
+}
+
+/*# sourceMappingURL=computadoras.css.map */
